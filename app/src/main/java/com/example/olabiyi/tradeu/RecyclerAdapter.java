@@ -196,7 +196,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             holder.etDescriptionTextView.setText(myList.get(position).getDescription());
             holder.Location.setText(myList.get(position).getLocation());
             holder.option.setText(myList.get(position).getoption());
-            holder.email.setText(myList.get(position).getemail());
             holder.name.setText(myList.get(position).getname());
      /**       holder.Map.setOnClickListener(new View.OnClickListener() {
                 @Override
