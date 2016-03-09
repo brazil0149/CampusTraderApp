@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     EditText etTitle, etDescription;
     String title = "",description = "";
     String Location = "", option = "";
-    ImageView crossImage;
     private ActionBarDrawerToggle mDrawerToggle;
 
     DrawerLayout mDrawerLayout;
@@ -273,7 +272,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         spinner2.setOnItemSelectedListener(new CustomOnItemSelectedListener());
 
 
-
    //     AdapterView.OnItemSelectedListener spinnerListener = new myOnItemSelectedListener(adapter, this.mAdapter);
 
    //     spinner.setOnItemSelectedListener(spinnerListener);
@@ -303,10 +301,26 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                     mLog.setTitle(title);
                     mLog.setDescription(description);
                     mLog.setLocation(Location);
-                    mLog.setoption(option);
-                    mLog.setemail(message);
+                //    mLog.setoption(option);
+                //    mLog.setemail(message);
                     mLog.setname(message1);
                     myList.add(mLog);
+
+                    RecyclerData mLog2 = new RecyclerData();
+                    mLog2.setTitle("CS3340 Book");
+                    mLog2.setDescription("Book for sell for $50");
+                    mLog2.setLocation("SC-S Building");
+                    mLog2.setname("Diego Ortega");
+                    myList.add(mLog2);
+
+
+                    RecyclerData mLog4 = new RecyclerData();
+                    mLog4.setTitle("Toaster");
+                    mLog4.setDescription("Looking to buy a toaster");
+                    mLog4.setLocation("SC-S Building");
+                    mLog4.setname("Nabila Zaidi");
+                    myList.add(mLog4);
+
                     mRecyclerAdapter.notifyData(myList);
                 //    Toast.makeText(getApplicationContext(), "Worked. Kappa", Toast.LENGTH_SHORT).show();
 

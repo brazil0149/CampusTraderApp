@@ -137,16 +137,6 @@
                 android:layout_alignParentEnd="true" />
 
 
-            <TextView
-                android:layout_width="470dp"
-                android:layout_height="70dp"
-                android:text="Email"
-                android:textColor="@color/black"
-                android:id="@+id/email"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:background="@color/white"
-                android:textSize="20sp"
-                android:layout_alignParentTop="true" />
         </RelativeLayout>
 
     </LinearLayout>
