@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="grid_layout_rb" type="id" />
+    <item name="linear_layout_rb" type="id" />
+    <item name="zaire_text_view" type="id" />
+    <item name="list" type="id" />
+    <item name="Map" type="id" />
+    <item name="New" type="id" />
+    <item name="editTextResult" type="id" />
+    <item name="editTextDialogUserInput" type="id" />
+    <item name="sign_in_button" type="id" />
+    <item name="sign_out_button" type="id" />
+    <item name="disconnect_button" type="id" />
+    <item name="status" type="id" />
+    <item name="sign_out_and_disconnect" type="id" />
+    <item name="input_email" type="id" />
+    <item name="input_password" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="link_signup" type="id" />
+    <item name="input_name" type="id" />
+    <item name="btn_signup" type="id" />
+    <item name="link_login" type="id" />
+    <item name="Name" type="id" />
+    <item name="Description" type="id" />
+    <item name="spinner" type="id" />
+    <item name="spinner1" type="id" />
+    <item name="log_out" type="id" />
+    <item name="input_Name" type="id" />
+    <item name="id" type="id" />
+    <item name="userimage" type="id" />
+    <item name="userid" type="id" />
+    <item name="username" type="id" />
+    <item name="useremail" type="id" />
+    <item name="nameSurnameText" type="id" />
+    <item name="displayId" type="id" />
+    <item name="results" type="id" />
+    <item name="SpinnerResult" type="id" />
+    <item name="Spinner01" type="id" />
+    <item name="login_user" type="id" />
+    <item name="message" type="id" />
+    <item name="userName" type="id" />
+    <item name="emailId" type="id" />
+    <item name="Id" type="id" />
+    <item name="option" type="id" />
+    <item name="email" type="id" />
+    <item name="Fname" type="id" />
+</resources>

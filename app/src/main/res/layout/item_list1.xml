@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    card_view:cardCornerRadius="3dp"
+    android:layout_marginTop="9dp"
+    android:layout_marginLeft="9dp"
+    android:layout_marginRight="9dp"
+    card_view:cardElevation="0.01dp"
+    android:layout_marginBottom="0dp">
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="338dp"
+        android:background="@color/oil">
+
+
+        <ImageView
+            android:id="@+id/list_avatar"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@color/white"
+            android:layout_above="@+id/list_desc" />
+
+        <TextView
+            android:id="@+id/list_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:background="@color/oil"
+            android:alpha="0.8"
+            android:textColor="@color/monsoon"
+            android:textSize="26sp"
+            android:text="Test"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_alignBottom="@+id/list_avatar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/list_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:alpha="0.8"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:text="@string/description"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_above="@+id/Map"
+            android:layout_alignRight="@+id/Map"
+            android:layout_alignEnd="@+id/Map" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#FF00FF00"
+            android:layout_below="@+id/list_desc"
+            android:id="@+id/view" />
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="40dp"
+            android:text="Location"
+            android:textColor="@color/white"
+            android:id="@+id/Location"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@color/oil"
+            android:layout_below="@+id/list_desc"
+            android:layout_toLeftOf="@+id/Map"
+            android:layout_toStartOf="@+id/Map"
+            android:layout_marginRight="28dp"
+            android:layout_marginEnd="28dp"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/oil"
+            android:layout_below="@+id/list_desc"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="40dp"
+            android:onClick="Map"
+            android:text="Map"
+            android:textColor="@color/red"
+            android:id="@+id/Map"
+            android:background="@color/oil"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="User Profile"
+            android:id="@+id/user"
+            android:icon="@drawable/upicon"
+            android:clickable="true"/>
+
+        <item android:title="Email"
+            android:icon="@drawable/gicon"
+            android:id="@+id/Email"
+            android:clickable="true"/>
+
+        <item android:title="Map"
+            android:icon="@drawable/micon"
+            android:id="@+id/Map"
+            android:clickable="true"/>
+
+        <item android:title="Sign Out"
+            android:icon="@drawable/sicon"
+            android:id="@+id/Log_out"
+            android:clickable="true"/>
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "tradeu-b3e0",
+    "project_number": "368480666397",
+    "name": "TradeU"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368480666397:android:1f4a0755b895f9b0",
+        "client_id": "android:com.example.olabiyi.tradeu",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.olabiyi.tradeu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368480666397-9ebq5l8qpv3ppn80hn8l5q817npaoivo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.olabiyi.tradeu",
+            "certificate_hash": "CAE419167A1DD869C66E52C11B458B183D5B94BF"
+          }
+        },
+        {
+          "client_id": "368480666397-87tbpjg60jcv9akr2b245icd1hbrbfl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

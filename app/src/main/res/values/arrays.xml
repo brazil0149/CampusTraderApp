@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Planets">
+        <item>Books</item>
+        <item>Tools</item>
+        <item>Games</item>
+        <item>Software</item>
+    </string-array>
+</resources>
